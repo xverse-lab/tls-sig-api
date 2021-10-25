@@ -1,4 +1,4 @@
-package _go
+package tls_sig_api
 
 import (
 	"github.com/xverse-lab/tls-sig-api/go/tls_sig_api"

@@ -1,7 +1,7 @@
 # Token鉴权
 ![img.png](img.png)
 
-##鉴权的基本流程
+## 鉴权的基本流程
 1. 元象给业务侧分配appId，secretKey(sk), skver，并提供生成token的算法，业务侧提供生成token的服务，并维护sk的安全，
 2. 业务侧客户端向自己的服务端申请token
 3. 拿到token后，客户端带上roomId、uId、token去访问SDK
